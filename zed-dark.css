@@ -1,0 +1,143 @@
+:root {
+    /* Variables */
+    --syntax-variable--color: #6997e7;
+    --syntax-variable-builtin--color: #6997e7;
+    --syntax-variable-parameter--color: #6997e7;
+    --syntax-variable-member--color: #6997e7;
+    --syntax-variable-special--color: #96b6ee;
+
+    /* Constants and Literals */
+    --syntax-constant--color: #ffac5e;
+    --syntax-constant-builtin--color: #ffac5e;
+    --syntax-constant-macro--color: #ffac5e;
+    --syntax-boolean--color: #ffac5e;
+    --syntax-number--color: #ffac5e;
+    --syntax-number-float--color: #ffac5e;
+    --syntax-float--color: #ef9f76;
+
+    /* Strings and Characters */
+    --syntax-string--color: #96cd6f;
+    --syntax-string-documentation--color: #81c8be;
+    --syntax-string-doc--color: #81c8be;
+    --syntax-string-doc--font-style: italic;
+    --syntax-string-regexp--color: #ef9f76;
+    --syntax-string-regex--color: #ef9f76;
+    --syntax-string-escape--color: #f4b8e4;
+    --syntax-string-special--color: #f4b8e4;
+    --syntax-string-special-path--color: #f4b8e4;
+    --syntax-string-special-symbol--color: #eebebe;
+    --syntax-string-special-url--color: #f2d5cf;
+    --syntax-character--color: #81c8be;
+    --syntax-character-special--color: #f4b8e4;
+
+    /* Types */
+    --syntax-type--color: #ffac5e;
+    --syntax-type-builtin--color: #ffac5e;
+    --syntax-type-definition--color: #e5c890;
+    --syntax-type-class-definition--color: #e5c890;
+    --syntax-type-class-definition--font-weight: 700;
+    --syntax-type-interface--color: #e5c890;
+    --syntax-type-super--color: #e5c890;
+
+    /* Functions */
+    --syntax-function--color: #96b6ee;
+    --syntax-function-builtin--color: #96b6ee;
+    --syntax-function-call--color: #96b6ee;
+    --syntax-function-macro--color: #96b6ee;
+    --syntax-function-method--color: #96b6ee;
+    --syntax-function-method-call--color: #96b6ee;
+    --syntax-function-decorator--color: #ef9f76;
+
+    /* Keywords */
+    --syntax-keyword--color: #be83fa;
+    --syntax-keyword-modifier--color: #ca9ee6;
+    --syntax-keyword-type--color: #ca9ee6;
+    --syntax-keyword-coroutine--color: #ca9ee6;
+    --syntax-keyword-function--color: #ca9ee6;
+    --syntax-keyword-operator--color: #ca9ee6;
+    --syntax-keyword-import--color: #ca9ee6;
+    --syntax-keyword-repeat--color: #ca9ee6;
+    --syntax-keyword-return--color: #ca9ee6;
+    --syntax-keyword-debug--color: #ca9ee6;
+    --syntax-keyword-exception--color: #ca9ee6;
+    --syntax-keyword-conditional--color: #ca9ee6;
+    --syntax-keyword-conditional-ternary--color: #ca9ee6;
+    --syntax-keyword-directive--color: #f4b8e4;
+    --syntax-keyword-directive-define--color: #f4b8e4;
+    --syntax-keyword-export--color: #99d1db;
+
+    /* Punctuation and Operators */
+    --syntax-punctuation--color: #949cbb;
+    --syntax-punctuation-delimiter--color: #949cbb;
+    --syntax-punctuation-bracket--color: #949cbb;
+    --syntax-punctuation-special--color: #949cbb;
+    --syntax-punctuation-special-symbol--color: #eebebe;
+    --syntax-punctuation-list-marker--color: #81c8be;
+    --syntax-operator--color: #99d1db;
+
+    /* Comments */
+    --syntax-comment--color: #515a6a;
+    --syntax-comment-doc--color: #949cbb;
+    --syntax-comment-doc--font-style: italic;
+    --syntax-comment-documentation--color: #949cbb;
+    --syntax-comment-documentation--font-style: italic;
+    --syntax-comment-error--color: #e78284;
+    --syntax-comment-error--font-style: italic;
+    --syntax-comment-warning--color: #e5c890;
+    --syntax-comment-warning--font-style: italic;
+    --syntax-comment-hint--color: #8caaee;
+    --syntax-comment-hint--font-style: italic;
+    --syntax-comment-todo--color: #eebebe;
+    --syntax-comment-todo--font-style: italic;
+    --syntax-comment-note--color: #f2d5cf;
+    --syntax-comment-note--font-style: italic;
+
+    /* Tags and Markup */
+    --syntax-tag--color: #f7768e;
+    --syntax-tag-attribute--color: #e5c890;
+    --syntax-tag-attribute--font-style: italic;
+    --syntax-tag-delimiter--color: #81c8be;
+    --syntax-tag-doctype--color: #ca9ee6;
+
+    /* Diff/Version Control */
+    --syntax-diff-plus--color: #96cd6f;
+    --syntax-diff-minus--color: #e78284;
+
+    /* Text Formatting */
+    --syntax-text--color: #c6d0f5;
+    --syntax-text-literal--color: #96cd6f;
+    --syntax-emphasis-strong--color: #ea999c;
+    --syntax-emphasis-strong--font-weight: 700;
+    --syntax-emphasis--color: #ea999c;
+    --syntax-emphasis--font-style: italic;
+    --syntax-title--color: #c6d0f5;
+    --syntax-title--font-weight: 800;
+
+    /* Links */
+    --syntax-link-text--color: #babbf1;
+    --syntax-link-uri--color: #8caaee;
+    --syntax-link-uri--font-style: italic;
+
+    /* Miscellaneous */
+    --syntax-attribute--color: #ef9f76;
+    --syntax-property--color: #8caaee;
+    --syntax-constructor--color: #eebebe;
+    --syntax-parameter--color: #ea999c;
+    --syntax-field--color: #babbf1;
+    --syntax-namespace--color: #e5c890;
+    --syntax-namespace--font-style: italic;
+    --syntax-module--color: #e5c890;
+    --syntax-label--color: #85c1dc;
+    --syntax-symbol--color: #f4b8e4;
+    --syntax-embedded--color: #ea999c;
+    --syntax-concept--color: #85c1dc;
+    --syntax-enum--color: #81c8be;
+    --syntax-enum--font-weight: 700;
+    --syntax-hint--color: #626880;
+    --syntax-hint--font-style: italic;
+    --syntax-parent--color: #ef9f76;
+    --syntax-predictive--color: #737994;
+    --syntax-predoc--color: #e78284;
+    --syntax-primary--color: #ea999c;
+    --syntax-variant--color: #e78284;
+}
