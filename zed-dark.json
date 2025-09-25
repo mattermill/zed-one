@@ -31,7 +31,10 @@
         "border.selected": "#0a0b0f",
         "border.transparent": "#00000000",
         "border.disabled": "#101419",
+<<<<<<< Updated upstream
         "border.enabled": "#101419FF",
+=======
+>>>>>>> Stashed changes
 
         "background": "#080A0D",
         "surface.background": "#101419",
