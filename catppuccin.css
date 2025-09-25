@@ -1,0 +1,174 @@
+:root {
+    /* Variables */
+    --syntax-variable--color: #4c4f69;
+    --syntax-variable-builtin--color: #d20f39;
+    --syntax-variable-parameter--color: #e64553;
+    --syntax-variable-member--color: #1e66f5;
+    --syntax-variable-special--color: #d20f39;
+    --syntax-variable-special--font-style: italic;
+
+    /* Constants */
+    --syntax-constant--color: #fe640b;
+    --syntax-constant-builtin--color: #fe640b;
+    --syntax-constant-macro--color: #8839ef;
+
+    /* Module & Labels */
+    --syntax-module--color: #df8e1d;
+    --syntax-module--font-style: italic;
+    --syntax-label--color: #209fb5;
+
+    /* Strings */
+    --syntax-string--color: #40a02b;
+    --syntax-string-documentation--color: #179299;
+    --syntax-string-regexp--color: #fe640b;
+    --syntax-string-escape--color: #ea76cb;
+    --syntax-string-special--color: #ea76cb;
+    --syntax-string-special-path--color: #ea76cb;
+    --syntax-string-special-symbol--color: #dd7878;
+    --syntax-string-special-url--color: #dc8a78;
+    --syntax-string-special-url--font-style: italic;
+    --syntax-string-regex--color: #fe640b;
+    --syntax-string-doc--color: #179299;
+    --syntax-string-doc--font-style: italic;
+
+    /* Characters */
+    --syntax-character--color: #179299;
+    --syntax-character-special--color: #ea76cb;
+
+    /* Numbers & Booleans */
+    --syntax-boolean--color: #fe640b;
+    --syntax-number--color: #fe640b;
+    --syntax-number-float--color: #fe640b;
+    --syntax-float--color: #fe640b;
+
+    /* Types */
+    --syntax-type--color: #df8e1d;
+    --syntax-type-builtin--color: #8839ef;
+    --syntax-type-builtin--font-style: italic;
+    --syntax-type-definition--color: #df8e1d;
+    --syntax-type-interface--color: #df8e1d;
+    --syntax-type-interface--font-style: italic;
+    --syntax-type-super--color: #df8e1d;
+    --syntax-type-super--font-style: italic;
+    --syntax-type-class-definition--color: #df8e1d;
+    --syntax-type-class-definition--font-weight: 700;
+
+    /* Attributes & Properties */
+    --syntax-attribute--color: #fe640b;
+    --syntax-property--color: #1e66f5;
+
+    /* Functions */
+    --syntax-function--color: #1e66f5;
+    --syntax-function-builtin--color: #fe640b;
+    --syntax-function-call--color: #1e66f5;
+    --syntax-function-macro--color: #179299;
+    --syntax-function-method--color: #1e66f5;
+    --syntax-function-method-call--color: #1e66f5;
+    --syntax-function-decorator--color: #fe640b;
+
+    /* Constructor */
+    --syntax-constructor--color: #dd7878;
+
+    /* Operators */
+    --syntax-operator--color: #04a5e5;
+
+    /* Keywords */
+    --syntax-keyword--color: #8839ef;
+    --syntax-keyword-modifier--color: #8839ef;
+    --syntax-keyword-type--color: #8839ef;
+    --syntax-keyword-coroutine--color: #8839ef;
+    --syntax-keyword-function--color: #8839ef;
+    --syntax-keyword-operator--color: #8839ef;
+    --syntax-keyword-import--color: #8839ef;
+    --syntax-keyword-repeat--color: #8839ef;
+    --syntax-keyword-return--color: #8839ef;
+    --syntax-keyword-debug--color: #8839ef;
+    --syntax-keyword-exception--color: #8839ef;
+    --syntax-keyword-conditional--color: #8839ef;
+    --syntax-keyword-conditional-ternary--color: #8839ef;
+    --syntax-keyword-directive--color: #ea76cb;
+    --syntax-keyword-directive-define--color: #ea76cb;
+    --syntax-keyword-export--color: #04a5e5;
+
+    /* Punctuation */
+    --syntax-punctuation--color: #7c7f93;
+    --syntax-punctuation-delimiter--color: #7c7f93;
+    --syntax-punctuation-bracket--color: #7c7f93;
+    --syntax-punctuation-special--color: #ea76cb;
+    --syntax-punctuation-special-symbol--color: #dd7878;
+    --syntax-punctuation-list-marker--color: #179299;
+
+    /* Comments */
+    --syntax-comment--color: #7c7f93;
+    --syntax-comment--font-style: italic;
+    --syntax-comment-doc--color: #7c7f93;
+    --syntax-comment-doc--font-style: italic;
+    --syntax-comment-documentation--color: #7c7f93;
+    --syntax-comment-documentation--font-style: italic;
+    --syntax-comment-error--color: #d20f39;
+    --syntax-comment-error--font-style: italic;
+    --syntax-comment-warning--color: #df8e1d;
+    --syntax-comment-warning--font-style: italic;
+    --syntax-comment-hint--color: #1e66f5;
+    --syntax-comment-hint--font-style: italic;
+    --syntax-comment-todo--color: #dd7878;
+    --syntax-comment-todo--font-style: italic;
+    --syntax-comment-note--color: #dc8a78;
+    --syntax-comment-note--font-style: italic;
+
+    /* Diff */
+    --syntax-diff-plus--color: #40a02b;
+    --syntax-diff-minus--color: #d20f39;
+
+    /* Tags */
+    --syntax-tag--color: #1e66f5;
+    --syntax-tag-attribute--color: #df8e1d;
+    --syntax-tag-attribute--font-style: italic;
+    --syntax-tag-delimiter--color: #179299;
+    --syntax-tag-doctype--color: #8839ef;
+
+    /* Parameters & Fields */
+    --syntax-parameter--color: #e64553;
+    --syntax-field--color: #7287fd;
+
+    /* Namespace */
+    --syntax-namespace--color: #df8e1d;
+    --syntax-namespace--font-style: italic;
+
+    /* Symbols */
+    --syntax-symbol--color: #ea76cb;
+
+    /* Text */
+    --syntax-text--color: #4c4f69;
+    --syntax-text-literal--color: #40a02b;
+
+    /* Emphasis */
+    --syntax-emphasis--color: #e64553;
+    --syntax-emphasis--font-style: italic;
+    --syntax-emphasis-strong--color: #e64553;
+    --syntax-emphasis-strong--font-weight: 700;
+
+    /* Embedded */
+    --syntax-embedded--color: #e64553;
+
+    /* Special Elements */
+    --syntax-concept--color: #209fb5;
+    --syntax-enum--color: #179299;
+    --syntax-enum--font-weight: 700;
+    --syntax-hint--color: #acb0be;
+    --syntax-hint--font-style: italic;
+
+    /* Links */
+    --syntax-link-text--color: #7287fd;
+    --syntax-link-uri--color: #1e66f5;
+    --syntax-link-uri--font-style: italic;
+
+    /* Miscellaneous */
+    --syntax-parent--color: #fe640b;
+    --syntax-predictive--color: #9ca0b0;
+    --syntax-predoc--color: #d20f39;
+    --syntax-primary--color: #e64553;
+    --syntax-title--color: #4c4f69;
+    --syntax-title--font-weight: 800;
+    --syntax-variant--color: #d20f39;
+}
