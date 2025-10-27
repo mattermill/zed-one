@@ -1,9 +1,10 @@
 {
   "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
-  "name": "MSP",
+  "name": "Zed Dark",
+  "author": "matermill",
   "themes": [
     {
-      "name": "MSP",
+      "name": "Zed Dark",
       "appearance": "dark",
       "style": {
         "editor.foreground": "#D0D3DA",
@@ -31,10 +32,7 @@
         "border.selected": "#0a0b0f",
         "border.transparent": "#00000000",
         "border.disabled": "#101419",
-<<<<<<< Updated upstream
         "border.enabled": "#101419FF",
-=======
->>>>>>> Stashed changes
 
         "background": "#080A0D",
         "surface.background": "#101419",
@@ -131,8 +129,8 @@
         "version_control.renamed": "#ffdf80",
         "version_control.conflict": "#fc9867",
         "version_control.ignored": "#a9aec1",
-        "version_control.conflict_marker.ours": "#a9dc76",
-        "version_control.conflict_marker.theirs": "#F7768E",
+        "version_control.conflict_marker.ours": "#AD2F2F99",
+        "version_control.conflict_marker.theirs": "#96CD6F3D",
 
         "hidden": "#a9aec1",
         "hidden.background": "#212430",
