@@ -533,7 +533,7 @@
 
         "link_text.hover": "#5c78e2ff",
 
-        "terminal.background": "#FBF9F9",
+        "terminal.background": "#F8F5F1FF",
         "terminal.foreground": "#242529ff",
         "terminal.bright_foreground": "#242529ff",
         "terminal.dim_foreground": "#fafafaff",
