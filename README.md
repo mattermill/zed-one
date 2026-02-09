@@ -2,9 +2,6 @@
 
 ⚠️ Work in Progress — This theme is currently under active development. Some edge cases may not be fully styled yet.
 
-## Zed One
-A refined iteration of Zed Dark that closely resembles the final version of Zed's official dark theme. This is not officially endorsed by Zed Industries and is subject to change at any time.
-
 ## Installation
 To install locally, download the theme file and place it in the following location, depending on your operating system.
 
