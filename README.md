@@ -1,5 +1,4 @@
-# Zed Dark
-An extra-dark theme for Zed.
+# Zed One
 
 ⚠️ Work in Progress — This theme is currently under active development. Some edge cases may not be fully styled yet.
 
